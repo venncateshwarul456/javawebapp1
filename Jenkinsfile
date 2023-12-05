@@ -14,7 +14,7 @@ pipeline {
       }
       stage('deploy') {
          steps {
-            deploy adapters: [tomcat8(credentialsId: 'tomcat', path: '', url: 'http://localhost:9999/')], contextPath: 'weguidejune20PL', war: 'productweb\\target\\productweb.war'
+            deploy adapters: [tomcat9(credentialsId: 'a62c1e54-008f-4b15-acd0-b602dbfeb068', path: '', url: 'http://localhost:9999')], contextPath: 'dec5pipeline', war: 'productweb/target/productweb.war'
          }
       }
    }
