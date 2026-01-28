@@ -5,13 +5,11 @@ productweb/target
 productweb/target
 
 # Maven
-target/
-**/target/
 
 # Eclipse
-.project
+
 .classpath
-.settings/
+
 
 # Compiled files
 *.class
